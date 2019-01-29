@@ -35,12 +35,14 @@ HttpRequest httpReq;
 
 byte mac[] = { 
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress serverIP(192,168,0,18);
+  
+IPAddress serverIP(192,168,1,177);
+
 IPAddress gwIP(192,168,0,254);
 IPAddress dnsIP(192,168,0,6);
 IPAddress mask(255,255,255,0);
 
-EthernetServer server(8888);
+EthernetServer server(80);
 
 void setup() {
   Serial.begin(9600);
