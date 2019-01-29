@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map For Wire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+addParam KEYWORD2
+addAttrib KEYWORD2
+addCookie KEYWORD2
+freeParamMem KEYWORD2
+freeCookieMem KEYWORD2
+HttpRequest KEYWORD2
+resetRequest KEYWORD2
+parseRequest KEYWORD2
+endOfRequest KEYWORD2
+getParam KEYWORD2
+getParam KEYWORD2
+getCookie KEYWORD2
+getCookie KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+httpReq	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
